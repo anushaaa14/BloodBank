@@ -1,0 +1,11 @@
+DROP TABLE user1;
+
+CREATE TABLE user1 (
+    id INTEGER PRIMARY KEY,
+    username VARCHAR(100),
+    password VARCHAR(100),
+    phone VARCHAR(100),
+
+);
+
+INSERT INTO user1 (id, username, email, password) VALUES (1, 'John Doe', '123@gmail.com', '123');
